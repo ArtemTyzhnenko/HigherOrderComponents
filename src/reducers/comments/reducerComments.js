@@ -14,6 +14,14 @@ const comments = (state = initialState, action) => {
                     action.payload,
                 ]
             };
+        case actionTypes.FETCH_COMMENTS_SUCCESS:
+            return {
+                ...state,
+                comments:[
+                    ...state.comments,
+                    ...action.payload,
+                ]
+            };
         default:
             return state;
     }
