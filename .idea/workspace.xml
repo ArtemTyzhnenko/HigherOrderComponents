@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d80b516-0ef8-4bb7-8910-e2b989e7af66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/integrations.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CommentBox/CommentBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentBox/CommentBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/CommentBoxContainer/CommentBoxContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CommentBoxContainer/CommentBoxContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/comments/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/comments/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/comments/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/comments/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/comments/reducerComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/comments/reducerComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,15 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentBox.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/CommentBox/CommentBox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -61,13 +49,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/comments/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="278">
+              <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="70" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="integrations.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/integrations.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/__tests__/App.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentBox.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,21 +125,22 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/components/__tests__/CommentBox.test.ks.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/__tests__/App.test.js" />
         <option value="$PROJECT_DIR$/src/reducers/__tests__/reducerComments.test.js" />
         <option value="$PROJECT_DIR$/src/reducers/__tests__/actions.test.js" />
         <option value="$PROJECT_DIR$/src/containers/CommentListContainer/CommentListContainer.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/CommentList/CommentList.js" />
         <option value="$PROJECT_DIR$/src/Root.js" />
-        <option value="$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js" />
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/components/__tests__/CommentList.test.js" />
         <option value="$PROJECT_DIR$/src/reducers/comments/actionTypes.js" />
         <option value="$PROJECT_DIR$/src/containers/CommentBoxContainer/CommentBoxContainer.js" />
-        <option value="$PROJECT_DIR$/src/components/CommentBox/CommentBox.js" />
         <option value="$PROJECT_DIR$/src/reducers/comments/reducerComments.js" />
         <option value="$PROJECT_DIR$/src/reducers/comments/actions.js" />
+        <option value="$PROJECT_DIR$/src/components/CommentBox/CommentBox.js" />
+        <option value="$PROJECT_DIR$/src/components/__tests__/App.test.js" />
+        <option value="$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/integrations.test.js" />
       </list>
     </option>
   </component>
@@ -170,6 +195,12 @@
               <item name="testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,32 +216,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="CommentBox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="CommentBoxContainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="comments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,18 +260,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532767530817</updated>
-      <workItem from="1532767534606" duration="15870000" />
+      <workItem from="1532767534606" duration="17378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15870000" />
+    <option name="totallyTimeSpent" value="17378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5003524" side_tool="true" weight="0.32952926" />
@@ -275,7 +280,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49964765" visible="true" weight="0.42424244" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49964765" visible="true" weight="0.42424244" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -367,16 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/__tests__/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -411,16 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -490,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CommentBox/CommentBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -504,10 +489,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/comments/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="278">
+          <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="70" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/__tests__/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/__tests__/CommentBox.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/integrations.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

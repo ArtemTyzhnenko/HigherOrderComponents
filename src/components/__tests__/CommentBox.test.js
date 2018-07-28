@@ -17,9 +17,9 @@ afterEach(()=> {
     wrapped.unmount();
 });
 
-it('has a text area and a button', () => {
+it('has a text area and a two buttons', () => {
     expect(wrapped.find('textarea').length).toEqual(1);
-    expect(wrapped.find('button').length).toEqual(1);
+    expect(wrapped.find('button').length).toEqual(2);
 });
 
 describe('the text area', ()=>{
@@ -39,7 +39,7 @@ describe('the text area', ()=>{
     });
 
     it('when form is submitting, text area get emptied', ()=>{
-        wrapped.find('button').simulate('submit');
+        wrapped.find('form').simulate('submit');
         wrapped.update();
 
         expect(wrapped.find('textarea').prop('value')).toEqual('');

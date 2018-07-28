@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import App from '../App';
 import CommentBoxContainer from '../../containers/CommentBoxContainer/CommentBoxContainer';
-import CommentList from '../CommentList/CommentList';
+import CommentListContainer from '../../containers/CommentListContainer/CommentListContainer';
 
 let wrapped;
 
@@ -17,5 +17,5 @@ it('show a comment box', () => {
 
 it('show a comment list', () => {
 
-    expect(wrapped.find(CommentList).length).toEqual(1);
+    expect(wrapped.find(CommentListContainer).length).toEqual(1);
 });
