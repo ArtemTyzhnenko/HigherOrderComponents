@@ -1,4 +1,4 @@
-// import * as actionTypes from './actionTypes';
+import * as actionTypes from './actionTypes';
 
 let initialState = {
     comments: [],
@@ -6,9 +6,17 @@ let initialState = {
 
 const comments = (state = initialState, action) => {
     switch (action.type) {
+        case actionTypes.SAVE_COMMENT:
+            return {
+                ...state,
+                comments:[
+                    ...state.comments,
+                    action.payload,
+                ]
+            };
         default:
             return state;
     }
-}
+};
 
 export default comments;
