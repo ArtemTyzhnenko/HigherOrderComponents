@@ -44,7 +44,6 @@ class App extends Component {
         );
     }
 }
-
 const mapStateToProps = ({ auth }) => {
     return {
         auth: auth.auth,

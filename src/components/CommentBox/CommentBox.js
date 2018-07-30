@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import requireAuth from '../requireAuth/requireAuth';
 
 class CommentBox extends Component {
     state = {
@@ -37,4 +38,4 @@ class CommentBox extends Component {
     }
 };
 
-export default CommentBox;
+export default requireAuth(CommentBox);
