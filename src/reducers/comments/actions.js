@@ -1,6 +1,5 @@
 import * as actionTypes from './actionTypes';
 import axios from 'axios';
-import comments from "./reducerComments";
 
 export const saveComment = (comment) => {
     return {
